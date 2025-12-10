@@ -1,13 +1,16 @@
-from arithmetic_operations import perform_operation
+# This is a sample Python script.
 
-def main():
-    print("Arithmetic Operations")
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
+# Press Ctrl+F5 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-    result = perform_operation(num1, num2, operation)
-    print(f"Result: {result}")
 
-if __name__ == "__main__":
-    main()
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
