@@ -34,4 +34,4 @@ class Library:
 
     def list_books(self) -> None:
         for book in self.books:
-            print(book.get_details())
+            print(book)
