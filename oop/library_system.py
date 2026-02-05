@@ -34,8 +34,4 @@ class Library:
 
     def list_books(self) -> None:
         for book in self.books:
-<<<<<<< HEAD
             print(book)
-=======
-            print(book)
->>>>>>> df57465113e7c314d9e931f477d7ef0cc0aa3fa2
